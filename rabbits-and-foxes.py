@@ -99,7 +99,7 @@ for i in range(trails):
     if Foxes[-1] > 0:
         second_peaks.append(find_peaks(Foxes, time))
 
-    plt.plot(time, Foxes, "b-", alpha=0.7)
+    plt.plot(time, Foxes)
 
 FOX_DEATH_STAT = 100 * FOX_DEATH_COUNT / trails
 RABBIT_DEATH_STAT = 100 * Rabbits_died_this_many_times / trails
